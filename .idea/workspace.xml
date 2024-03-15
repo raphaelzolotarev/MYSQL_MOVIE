@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7ef9af2-4448-4077-8d54-7ad3f89adf09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/sql/CreateMovie.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/CreateMovieCast.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/CreateMovieGenre.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/CreateMovieKeyword.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/CreateMovieLang.sql" afterDir="false" />
+    <list default="true" id="e7ef9af2-4448-4077-8d54-7ad3f89adf09" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sql/InsertValues.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sql/Queries.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f241f5d9-c8e3-492c-9fa9-438a16633890.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f241f5d9-c8e3-492c-9fa9-438a16633890.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/CreateMovie.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/CreateMovieCast.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/CreateMovieGenre.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/CreateMovieKeyword.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/CreateMovieLang.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/CreateTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/CreateTables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "raphaelzolotarev"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f69b973f-4923-4eaa-accc-5b96f92d63b5" />
+        <option name="url" value="https://github.com/raphaelzolotarev/MYSQL_MOVIE.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -34,20 +56,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Database Script.CreateTables.sql.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Intec/IdeaProjects/MYSQL_MOVIE/src/main/sql",
+    "last_opened_file_path": "C:/Users/iliar/IdeaProjects/MYSQL_MOVIE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "f241f5d9-c8e3-492c-9fa9-438a16633890"
     ],
     "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
       "MySQL"
@@ -59,10 +91,18 @@
       <recent name="C:\Users\Intec\IdeaProjects\MYSQL_MOVIE\src\main\sql" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="CreateTables.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/sql/CreateTables.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="f241f5d9-c8e3-492c-9fa9-438a16633890" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -77,10 +117,25 @@
       <workItem from="1710334492370" duration="982000" />
       <workItem from="1710404120086" duration="2250000" />
       <workItem from="1710412073993" duration="3156000" />
+      <workItem from="1710493934077" duration="759000" />
+      <workItem from="1710497172193" duration="28034000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1710497322348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710497322348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
