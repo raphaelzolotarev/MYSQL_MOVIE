@@ -20,8 +20,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#requirements">Requirements</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li><a href="#tasks-done">Tasks done</a></li>
@@ -38,33 +40,45 @@ This is the first SQL project i made after 1 week of SQL learning at Intec Bruss
 
 <!-- GETTING STARTED -->
 ## Getting Started
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Requirements
 * <a target="_blank" href="https://dev.mysql.com/downloads/"> <img src="https://img.shields.io/badge/MySQL_Version_8.0_or_higher-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> </a>
 * <a target="_blank" href="https://www.jetbrains.com/idea/download"> <img src="https://img.shields.io/badge/IntelliJ_IDEA_Ultimate_Edition-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /> </a>
+* <a target="_blank" href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4"> <img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" /> </a>
+
 
 ### Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+First, you need to create a new database to avoid impacting your existing ones. To do that, open PowerShell and type the following command lines:
+* Start MySQL by logging in with your username and password
   ```sh
-  npm install npm@latest -g
+  mysql -u username -p
+  ```
+* Create a new database with the name "moviedb"
+  ```sh
+  create database moviedb;
+  ```
+* Grant all access on database to your user with the correct ip
+  ```sh
+  grant all on moviedb.* to 'username'@'localhost';
+  ```
+* Reload the user's privileges 
+  ```sh
+  flush privileges;
   ```
 ### Installation
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Open IntelliJ and install all needed MySQL drivers and use only MySQL dialect
+2. Click on the database icon right icon -> + sign -> Data source -> choose only MySQL
+3. Enter your user, pass and database name then click ok to connect to the database
+4. Import the downloaded github zip repository or type the following command in the IntelliJ terminal 
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/raphaelzolotarev/MYSQL_MOVIE
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### Usage
+1. Go to src -> main -> sql
+2. Open the file CreateTables.sql and execute all the queries to create tables in your database
+3. Open the file InsertValues.sql and execute all the queries to insert all values in your tables
+4. Open Queries.sql and execute each query one by one to see the result of each query
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TASKS -->
