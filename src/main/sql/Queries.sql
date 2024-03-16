@@ -64,7 +64,6 @@ WHERE genre.genre='horror';
     JOIN movie_genre
         ON genre.id = movie_genre.genre_id
     GROUP BY genre.genre;
-
     #NOT USED
     SELECT genre.genre
     FROM genre
@@ -83,9 +82,20 @@ ORDER BY amount DESC
 LIMIT 5;
 
 #11
-SELECT *
-FROM movie
-WHERE duration > (SELECT AVG(duration) FROM movie);
+    #normaal
+    SELECT *
+    FROM movie
+    WHERE duration > (SELECT AVG(duration) FROM movie)
+    ORDER BY movie.titel;
+    #bonus
+    SELECT *
+    FROM movie
+    WHERE duration > (
+        SELECT AVG(duration)
+        FROM movie
+        WHERE duration > 90
+    )
+    ORDER BY titel;
 
 #12
 INSERT INTO usr(usr_id, login, email)
