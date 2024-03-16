@@ -43,9 +43,9 @@ This is the first SQL project i made after 1 week of SQL learning at Intec Bruss
 To get a local copy up and running follow these simple steps.
 
 ### Requirements
-* <a target="_blank" href="https://dev.mysql.com/downloads/"> <img src="https://img.shields.io/badge/MySQL_Version_8.0_or_higher-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> </a>
-* <a target="_blank" href="https://www.jetbrains.com/idea/download"> <img src="https://img.shields.io/badge/IntelliJ_IDEA_Ultimate_Edition-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /> </a>
-* <a target="_blank" href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4"> <img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" /> </a>
+* <a target="blank" href="https://dev.mysql.com/downloads/"> <img src="https://img.shields.io/badge/MySQL_Version_8.0_or_higher-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> </a>
+* <a target="blank" href="https://www.jetbrains.com/idea/download"> <img src="https://img.shields.io/badge/IntelliJ_IDEA_Ultimate_Edition-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" /> </a>
+* <a target="blank" href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4"> <img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" /> </a>
 
 
 ### Prerequisites
