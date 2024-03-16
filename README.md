@@ -40,7 +40,7 @@ This is the first SQL project i made after 1 week of SQL learning at Intec Bruss
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Requirements
 * <a target="_blank" href="https://dev.mysql.com/downloads/"> <img src="https://img.shields.io/badge/MySQL_Version_8.0_or_higher-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> </a>
